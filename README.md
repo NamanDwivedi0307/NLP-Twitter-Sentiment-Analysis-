@@ -1,31 +1,50 @@
-NLP Twitter Sentiment Analysis (Machine Learning)
+🧠 NLP: Twitter Sentiment Analysis
+A guided hands-on project to build a sentiment classification model using NLP techniques and a Naive Bayes classifier. This project was completed via Coursera’s Rhyme platform under the guidance of Dr. Ryan Ahmed.
 
-Completed Coursera Guided Project by Naman Dwivedi
+📌 Project Overview
+In this project, we analyze Twitter data to classify tweets into positive or negative sentiment using Natural Language Processing (NLP) techniques. The goal is to apply core NLP preprocessing steps and implement a Naive Bayes classifier to perform text classification.
 
-Instructor: Ryan Ahmed, Ph.D.
+🎯 Learning Objectives
+Import and explore Twitter sentiment dataset using Python libraries
 
-Project Structure
+Perform EDA and visualize tweet distributions
 
-The hands on project on Twitter Sentiment Analysis is divided into following tasks:
+Clean and preprocess tweet text (punctuation, stop words)
 
-Task #1: Understand the Problem Statement and business case
+Apply Count Vectorization for tokenization
 
-Task #2: Import libraries and datasets
+Understand the theory behind Naive Bayes classifiers
 
-Task #3: Perform Exploratory Data Analysis
+Train and evaluate a text classification model
 
-Task #4: Plot the word cloud
+🛠️ Tools & Technologies
+Python
 
-Task #5: Perform data cleaning - removing punctuation
+Pandas, NumPy
 
-Task #6: Perform data cleaning - remove stop words
+Matplotlib, Seaborn, WordCloud
 
-Task #7: Perform Count Vectorization (Tokenization)
+Scikit-learn (CountVectorizer, Naive Bayes, Pipeline)
 
-Task #8: Create a pipeline to remove stop-words, punctuation, and perform tokenization
+Jupyter Notebook / Google Colab
 
-Task #9: Understand the theory and intuition behind Naive Bayes classifiers
+📂 Project Structure
+Task	Description
+Task #1	Understand the problem statement and business case
+Task #2	Import required libraries and dataset
+Task #3	Perform Exploratory Data Analysis (EDA)
+Task #4	Plot Word Cloud of frequent terms
+Task #5	Clean data by removing punctuation
+Task #6	Remove stop words
+Task #7	Apply Count Vectorization (Tokenization)
+Task #8	Build a text processing pipeline
+Task #9	Understand Naive Bayes theory
+Task #10	Train a Naive Bayes classifier
+Task #11	Evaluate model performance using confusion matrix
 
-Task #10: Train a Naive Bayes Classifier
+📈 Results
+The trained Naive Bayes classifier achieved good performance in classifying tweet sentiment. The model was evaluated using confusion matrix and accuracy metrics.
 
-Task #11: Assess trained model performance# NLP-Twitter-Sentiment-Analysis-
+👨‍💻 Author
+Naman Dwivedi
+Aspiring AI/ML Engineer | Data Scientist
